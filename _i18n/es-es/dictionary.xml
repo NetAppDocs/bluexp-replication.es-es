@@ -361,4 +361,12 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Actualizar el software Cloud Volumes ONTAP a la versión más reciente</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">La asociación de credenciales de NSS con su cuenta de BlueXP es diferente de la cuenta de NSS asociada con un inicio de sesión de usuario de BlueXP.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">Estas credenciales de NSS están asociadas con tu ID de cuenta de BlueXP específico. Los usuarios que pertenecen a la cuenta BlueXP pueden acceder a estas credenciales desde *Soporte &gt; Gestión NSS*.</block>
+  <block id="31fd9b4d5ab71f1bab6cf8522f760d0a" category="section-title">Replica datos mediante el backup y la recuperación de datos de BlueXP</block>
+  <block id="ede1cce9f240fed5ecc4264bd699cee1" category="inline-link">Backup y recuperación de BlueXP</block>
+  <block id="66979f555a68186ee239dfc6698f984d" category="paragraph">A partir de la versión del conector 3.9.31 de BlueXP, el proceso de backup y recuperación de datos de BlueXP te permite replicar datos entre volúmenes en sistemas ONTAP independientes mediante las tecnologías SnapMirror y SnapVault. Por lo tanto, si piensa replicar datos en otros sistemas ONTAP y también desea crear backups de los mismos datos en almacenamiento de objetos, puede que desee utilizar<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block> de este modo, puede gestionar sus necesidades de protección de datos con un único servicio.</block>
+  <block id="fdebf565d05cf95ccf5d24605af82d89" category="paragraph">Actualmente, la siguiente funcionalidad solo es compatible con el servicio de replicación de BlueXP, no si se utiliza la función de replicación del backup y la recuperación de BlueXP.</block>
+  <block id="e012112c73378e2a2d1fd1a0fa9c2795" category="list-text">No se admite una configuración en cascada en la que la replicación se produce del volumen A al volumen B y, a continuación, del volumen B al volumen C.</block>
+  <block id="baf48e0aa2c3928a76f5ae4cfa863af0" category="list-text">No existe soporte para replicar datos hacia o desde FSx para sistemas de ONTAP.</block>
+  <block id="0c23616cc33d59b54422397ae3ade277" category="list-text">No hay soporte para crear una replicación única de un volumen.</block>
+  <block id="8ac492b9cd41bb365b829b711997f353" category="paragraph">Por lo tanto, si necesitas alguna de esta funcionalidad, utiliza la replicación de BlueXP.</block>
 </blocks>

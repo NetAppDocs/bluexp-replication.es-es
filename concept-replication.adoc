@@ -86,3 +86,18 @@ BlueXP admite configuraciones sencillas, de fanout y de protección de datos en 
 * En una configuración de fanout, la replicación se produce del volumen A a varios destinos.
 * En una configuración en cascada, la replicación ocurre del volumen A al volumen B y del volumen B al volumen C.
 
+
+
+
+== Replica datos mediante el backup y la recuperación de datos de BlueXP
+
+A partir de la versión del conector 3.9.31 de BlueXP, el proceso de backup y recuperación de datos de BlueXP te permite replicar datos entre volúmenes en sistemas ONTAP independientes mediante las tecnologías SnapMirror y SnapVault. Por lo tanto, si piensa replicar datos en otros sistemas ONTAP y también desea crear backups de los mismos datos en almacenamiento de objetos, puede que desee utilizar https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Backup y recuperación de BlueXP"^] de este modo, puede gestionar sus necesidades de protección de datos con un único servicio.
+
+Actualmente, la siguiente funcionalidad solo es compatible con el servicio de replicación de BlueXP, no si se utiliza la función de replicación del backup y la recuperación de BlueXP.
+
+* No se admite una configuración en cascada en la que la replicación se produce del volumen A al volumen B y, a continuación, del volumen B al volumen C.
+* No existe soporte para replicar datos hacia o desde FSx para sistemas de ONTAP.
+* No hay soporte para crear una replicación única de un volumen.
+
+
+Por lo tanto, si necesitas alguna de esta funcionalidad, utiliza la replicación de BlueXP.
