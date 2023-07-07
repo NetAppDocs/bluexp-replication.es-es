@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
-summary: 'Descubra las novedades del servicio de replicación de BlueXP (anteriormente Cloud Manager).' 
+summary: Descubre las novedades de la replicación de BlueXP. 
 ---
 = Lo nuevo
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Descubra las novedades del servicio de replicación de BlueXP (anterio
 
 
 [role="lead"]
-Descubra las novedades del servicio de replicación de BlueXP (anteriormente Cloud Manager).
+Descubre las novedades de la replicación de BlueXP.
 
 
 
@@ -64,6 +64,6 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Apr
 
 === Interfaz rediseñada
 
-Hemos rediseñado la pestaña Replication para facilitar su uso y para que coincida con el aspecto actual de la interfaz de usuario de Cloud Manager.
+Hemos rediseñado el servicio de replicación para facilitar su uso y para que coincida con el aspecto actual de la interfaz de usuario.
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-replication/main/media/replication.gif["Una captura de pantalla de la pestaña replicación rediseñada de Cloud Manager que muestra una lista de relaciones de volúmenes."]

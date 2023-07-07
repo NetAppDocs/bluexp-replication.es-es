@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-replication-policies.html 
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, disaster recovery, DR 
-summary: Puede replicar datos entre entornos de trabajo de BlueXP. Puede elegir una replicación de datos en una sola vez para mover datos desde y hacia el cloud, o una programación recurrente para la recuperación ante desastres y la retención a largo plazo. 
+summary: Es posible que necesite ayuda para elegir una política de replicación al configurar la replicación de datos en BlueXP. Una política de replicación define cómo el sistema de almacenamiento replica los datos de un volumen de origen a un volumen de destino. 
 ---
 = Obtenga información acerca de las políticas de replicación
 :hardbreaks:
