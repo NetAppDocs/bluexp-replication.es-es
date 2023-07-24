@@ -23,7 +23,7 @@ Después de configurar la replicación de datos entre dos sistemas, puede gestio
 
 NOTE: Si el estado de una relación está inactivo y el estado de reflejo no se ha inicializado, debe inicializar la relación desde el sistema de destino para que la replicación de datos se realice de acuerdo con la programación definida. Puede inicializar la relación mediante System Manager o la interfaz de línea de comandos (CLI). Estos estados pueden aparecer cuando el sistema de destino falla y, a continuación, vuelve a estar online.
 
-. Haga clic en el menú Actions de una relación de volumen y seleccione una de las acciones disponibles.
+. Seleccione el menú de acciones de una relación de volumen y elija una de las acciones disponibles.
 +
 image:screenshot_replication_managing.gif["Captura de pantalla: Muestra la lista de acciones disponibles en la página Estado de replicación."]
 

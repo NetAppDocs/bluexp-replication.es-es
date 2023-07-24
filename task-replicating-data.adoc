@@ -106,7 +106,7 @@ Si el destino es un clúster de ONTAP, también debe especificar la máquina vir
 +
 Debe limitar la tasa de transferencia. Una tasa ilimitada puede tener un impacto negativo en el rendimiento de otras aplicaciones y puede afectar a su rendimiento de Internet.
 
-. *Directiva de replicación*: Elija una directiva predeterminada o haga clic en *Directivas adicionales* y, a continuación, seleccione una de las directivas avanzadas.
+. *Política de replicación*: Elija una política predeterminada o seleccione *Políticas adicionales*, y luego seleccione una de las políticas avanzadas.
 +
 Si necesita ayuda, link:concept-replication-policies.html["obtenga información acerca de las políticas de replicación"].
 
@@ -117,7 +117,7 @@ Si selecciona una política de backup (SnapVault) personalizada, las etiquetas a
 +
 Hay varios horarios predeterminados disponibles. Si desea crear una programación diferente, debe crear una nueva en el clúster _Destination_ mediante System Manager.
 
-. *Revisión*: Revise sus selecciones y haga clic en *Ir*.
+. *Revisión*: Revisa tus selecciones y selecciona *Ir*.
 
 
 .Resultado
