@@ -4,7 +4,7 @@ permalink: concept-backup-policies.html
 keywords: snapvault, archive, archiving, retention 
 summary: A diferencia de las políticas de mirroring, las políticas de SnapVault de backup replican copias Snapshot específicas a un volumen de destino. Es importante comprender cómo funcionan las políticas de backup si desea utilizar sus propias políticas en lugar de las predeterminadas. 
 ---
-= Obtenga información acerca de las políticas de replicación
+= Obtenga más información sobre las políticas de backup
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

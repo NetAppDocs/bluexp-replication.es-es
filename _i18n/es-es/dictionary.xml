@@ -24,7 +24,6 @@
   <block id="efec681cbb459f433d2291a71e215461" category="list-text">En una configuración de fanout, la replicación se produce del volumen A a varios destinos.</block>
   <block id="7a850141034065e0218996db71a2ef0c" category="list-text">En una configuración en cascada, la replicación ocurre del volumen A al volumen B y del volumen B al volumen C.</block>
   <block id="30f8f8912c844cee545e88597d12bbab" category="summary">Después de configurar la replicación de datos entre dos sistemas, puede gestionar la programación y la relación de replicación de datos desde BlueXP.</block>
-  <block id="2e4ca84ff13f65389599985c5d2a9f08" category="doc">Gestionar programaciones y relaciones</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Pasos</block>
   <block id="3b5a034beecbb1a2d60171dfe195f2df" category="list-text">En el menú de navegación, seleccione *Protección &gt; replicación*.</block>
   <block id="775f5846d28de12857c9c89ae5d4a6e1" category="list-text">Revisar el estado de las relaciones de replicación de datos para verificar que están en buen estado.</block>
@@ -185,7 +184,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp debería ponerse en contacto con usted durante este proceso. Este es un ejercicio de incorporación puntual para nuevos usuarios.</block>
   <block id="745cc81e54713a1702ada65f4b222bce" category="summary">Puede replicar datos entre entornos de trabajo ONTAP eligiendo una replicación de datos que se realiza una vez para la transferencia de datos, o una programación recurrente para la recuperación ante desastres o la retención a largo plazo. Por ejemplo, puede configurar la replicación de datos desde un sistema ONTAP en las instalaciones a Cloud Volumes ONTAP para la recuperación ante desastres.</block>
   <block id="aa03d16eacb954c7af08d5001cd67507" category="doc">Configure la replicación de datos</block>
-  <block id="992753e7f234853a9e0f96d1ff637271" category="section-title">Requisitos de replicación de datos</block>
   <block id="3f5c98f2da3fd65fbbfa955b13a433ab" category="paragraph">Antes de poder replicar datos, debe confirmar que se cumplen requisitos específicos para Cloud Volumes ONTAP, clústeres de ONTAP en las instalaciones o Amazon FSX para ONTAP.</block>
   <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="list-text">Entornos de trabajo</block>
   <block id="4afa74830ae584f2b792dfe5b6c79ccc" category="list-text">Si todavía no lo ha hecho, necesita crear los entornos de trabajo para el origen y el destino en la relación de replicación de datos.</block>
@@ -212,7 +210,6 @@
   <block id="4f473a2a941d4fd7b4a68e3cd98e934c" category="list-text">Requisitos específicos de Amazon FSX para ONTAP</block>
   <block id="0b2859515841917b8dcb93767366e15a" category="list-text">Si Cloud Volumes ONTAP forma parte de la relación, asegúrese de que la conectividad entre las VPC habilita VPC peering o utilizando una puerta de enlace de tránsito.</block>
   <block id="7cdb830daf27295ef13d47b3f05f431f" category="list-text">Si un clúster de ONTAP en las instalaciones forma parte de la relación, garantice la conectividad entre la red en las instalaciones y el VPC de AWS mediante una conexión directa o VPN.</block>
-  <block id="58e046b3f4ec304e4456cda8151a574b" category="section-title">Replicación de datos entre sistemas</block>
   <block id="ab180709f75f8b8d74709444b839ccd3" category="paragraph">Puede replicar datos eligiendo una replicación de datos que se realiza una vez, que puede ayudarle a mover datos hacia y desde el cloud, o una programación recurrente, que puede ayudar con la recuperación ante desastres o la retención a largo plazo.</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">En el menú de navegación, selecciona *almacenamiento &gt; Canvas*.</block>
   <block id="5aa1fbc4561178f17ae944c56ea9c22e" category="list-text">En el lienzo, seleccione el entorno de trabajo que contiene el volumen de origen, arrástrelo al entorno de trabajo al que desea replicar el volumen y, a continuación, seleccione *replicación*.</block>
@@ -237,9 +234,6 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notas de la versión</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Manos a la obra</block>
   <block id="c27a58445f6be9881526a37e46bb7d26" category="sidebar">Gestionar la replicación de datos</block>
-  <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">Conceptos</block>
-  <block id="fa26829830efe73376071e3b30f66d6a" category="sidebar">Políticas de replicación</block>
-  <block id="9f02509e5496e861df4c341dba05386e" category="sidebar">Política de backup</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conocimiento y apoyo</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs y comunidad</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidad de NetApp</block>
@@ -373,4 +367,9 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Obtenga soporte para un servicio de archivos de proveedores de cloud</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Para obtener soporte técnico relacionado con un servicio de archivos del proveedor de cloud, su infraestructura o cualquier solución que utilice el servicio, consulte «Obtener ayuda» en la documentación de BlueXP para ese producto.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Para recibir soporte técnico específico sobre BlueXP y sus soluciones y servicios de almacenamiento, use las opciones de soporte descritas a continuación.</block>
+  <block id="46ebfd1e0393caa0f34b574489afb56f" category="section-title">Paso 1: Revise los requisitos de replicación de datos</block>
+  <block id="94d63941f5733e2475f76dcc24cbaab4" category="section-title">Paso 2: Replicar datos entre sistemas</block>
+  <block id="30926cdd94e56dd228449e15c0e4474c" category="doc">Obtenga más información sobre las políticas de backup</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novedades</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="sidebar">Leer más</block>
 </blocks>
