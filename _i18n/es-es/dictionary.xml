@@ -188,8 +188,6 @@
   <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="list-text">Entornos de trabajo</block>
   <block id="4afa74830ae584f2b792dfe5b6c79ccc" category="list-text">Si todavía no lo ha hecho, necesita crear los entornos de trabajo para el origen y el destino en la relación de replicación de datos.</block>
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link">Cree un entorno de trabajo de Amazon FSX para ONTAP</block>
-  <block id="a3272fd5c4bd1903de9b1b2f5e1665a8" category="inline-link">Inicie Cloud Volumes ONTAP en AWS</block>
-  <block id="70c84621a7336f391b4b7df86b5f1396" category="inline-link">Inicie Cloud Volumes ONTAP en Azure</block>
   <block id="6c0fb6078ec778ca2319e375a19e994b" category="inline-link">Añada sistemas Cloud Volumes ONTAP existentes</block>
   <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="inline-link">Detectar clústeres de ONTAP</block>
   <block id="3fbe74eae84714fcfdd21edafe54f77f" category="list-text">Requisitos de versión</block>
@@ -203,7 +201,6 @@
   <block id="d5c8c6b85589a3255105df8b8a5a8e77" category="list-text">Para replicar datos entre dos sistemas Cloud Volumes ONTAP de diferentes proveedores de cloud, debe tener una conexión VPN entre las redes virtuales.</block>
   <block id="4f98fe32c8059fcb89742310b7175e7f" category="list-text">Requisitos específicos de los clústeres de ONTAP</block>
   <block id="8c4a805dde66a7461e7760fe982d066f" category="list-text">Debe instalarse una licencia de SnapMirror activa.</block>
-  <block id="913f5c084102a0d1bd37403b15c46b13" category="list-text">Si el clúster se encuentra en las instalaciones, debe tener una conexión entre la red corporativa y la red virtual en AWS, Azure o Google Cloud. Normalmente se trata de una conexión VPN.</block>
   <block id="1fbce003d68708feb24931b9e6366f50" category="list-text">Los clústeres de ONTAP deben cumplir con requisitos adicionales de subred, puerto, firewall y clúster.</block>
   <block id="d7bb556723e915c43fe4fd9b0f90d545" category="inline-link">Ver requisitos previos para la relación de clústeres entre iguales en la documentación de ONTAP</block>
   <block id="54aa7fca826fcb0f6caefb80a82fe037" category="paragraph"><block ref="54aa7fca826fcb0f6caefb80a82fe037" category="inline-link-rx"></block></block>
@@ -279,8 +276,6 @@
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
-  <block id="58daf0847a76a7b1620f3558f8c5aaa6" category="list-text"><block ref="58daf0847a76a7b1620f3558f8c5aaa6" category="inline-link-rx"></block></block>
-  <block id="ae344581f45a6d4593a2788f5e30015e" category="list-text"><block ref="ae344581f45a6d4593a2788f5e30015e" category="inline-link-rx"></block></block>
   <block id="8fdf2adbca771b61e226157cc48ae918" category="list-text"><block ref="8fdf2adbca771b61e226157cc48ae918" category="inline-link-rx"></block></block>
   <block id="c42ed38279c50e4c5755f93ea09a9661" category="list-text"><block ref="c42ed38279c50e4c5755f93ea09a9661" category="inline-link-rx"></block></block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>.</block>
@@ -325,8 +320,6 @@
   <block id="0c23616cc33d59b54422397ae3ade277" category="list-text">No hay soporte para crear una replicación única de un volumen.</block>
   <block id="8ac492b9cd41bb365b829b711997f353" category="paragraph">Por lo tanto, si necesitas alguna de esta funcionalidad, utiliza la replicación de BlueXP.</block>
   <block id="62390de09bd56fbb6d4533a188f4f201" category="doc">Documentación de replicación de BlueXP</block>
-  <block id="5195e4b472b1871018c47fface61dc40" category="inline-link">Inicie Cloud Volumes ONTAP en Google Cloud</block>
-  <block id="626952d60302f9977a04f592cec299fb" category="list-text"><block ref="626952d60302f9977a04f592cec299fb" category="inline-link-rx"></block></block>
   <block id="a7215108d548ffe7763ce1f9198d8994" category="paragraph">BlueXP inicia el proceso de replicación de datos. Puede ver detalles sobre la relación de volúmenes desde el servicio de replicación de BlueXP.</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Aviso para BlueXP</block>
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
@@ -372,4 +365,7 @@
   <block id="30926cdd94e56dd228449e15c0e4474c" category="doc">Obtenga más información sobre las políticas de backup</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novedades</block>
   <block id="d59048f21fd887ad520398ce677be586" category="sidebar">Leer más</block>
+  <block id="99a83347a58b400f105b44e515a16e59" category="inline-link">Crear un entorno de trabajo Cloud Volumes ONTAP</block>
+  <block id="dbfdbb36eb5065fce9a76d7ae82068ab" category="list-text"><block ref="dbfdbb36eb5065fce9a76d7ae82068ab" category="inline-link-rx"></block></block>
+  <block id="cb4d7a152cb523ddb41e8b55186ecaf9" category="list-text">Si el clúster está en sus instalaciones, debe tener una conexión entre la red corporativa y la red virtual en el cloud. Normalmente se trata de una conexión VPN.</block>
 </blocks>
