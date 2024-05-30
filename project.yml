@@ -39,26 +39,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: Avisos legales
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: Manos a la obra
-    links:
-    - title: Más información sobre la replicación de BlueXP
-      url: concept-replication.html
-    - title: Configure la replicación de datos
-      url: task-replicating-data.html
-  - title: Utiliza la replicación de BlueXP
-    links:
-    - title: Gestionar la replicación de datos
-      url: task-managing-replication.html
-  - title: Blogs y comunidad
-    links:
-    - title: Comunidad de NetApp
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Blog de BlueXP
-      url: https://cloud.netapp.com/blog
-    - title: Seminarios web sobre el cloud
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family

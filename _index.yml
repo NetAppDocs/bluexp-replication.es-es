@@ -1,0 +1,27 @@
+---
+indexpage:
+  title: Documentación de replicación de BlueXP
+  summary: Replicar datos entre sistemas de almacenamiento de ONTAP para dar soporte
+    al backup y la recuperación ante desastres en el cloud o entre clouds.
+  keywords: replicate, storage systems, disaster recovery, cloud
+  lead: Replicar datos entre sistemas de almacenamiento de ONTAP para dar soporte
+    al backup y la recuperación ante desastres en el cloud o entre clouds.
+  tiles:
+  - title: Manos a la obra
+    links:
+    - title: Más información sobre la replicación de BlueXP
+      url: concept-replication.html
+    - title: Configure la replicación de datos
+      url: task-replicating-data.html
+  - title: Utiliza la replicación de BlueXP
+    links:
+    - title: Gestionar la replicación de datos
+      url: task-managing-replication.html
+  - title: Blogs y comunidad
+    links:
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog de BlueXP
+      url: https://cloud.netapp.com/blog
+    - title: Seminarios web sobre el cloud
+      url: https://cloud.netapp.com/events
