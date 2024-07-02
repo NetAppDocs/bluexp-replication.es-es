@@ -57,7 +57,7 @@ Requisitos específicos de los clústeres de ONTAP::
 * Si el clúster está en sus instalaciones, debe tener una conexión entre la red corporativa y la red virtual en el cloud. Normalmente se trata de una conexión VPN.
 * Los clústeres de ONTAP deben cumplir con requisitos adicionales de subred, puerto, firewall y clúster.
 +
-https://docs.netapp.com/us-en/ontap-sm-classic/peering/reference_prerequisites_for_cluster_peering.html["Ver requisitos previos para la relación de clústeres entre iguales en la documentación de ONTAP"^]
+https://docs.netapp.com/us-en/ontap/peering/prerequisites-cluster-peering-reference.html#connectivity-requirements["Ver requisitos previos para la relación de clústeres entre iguales en la documentación de ONTAP"^]
 
 
 
