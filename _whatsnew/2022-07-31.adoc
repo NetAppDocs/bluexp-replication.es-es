@@ -1,5 +1,7 @@
 = FSX para ONTAP como origen de datos
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
