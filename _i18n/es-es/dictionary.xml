@@ -52,7 +52,6 @@
   <block id="06933067aafd48425d67bcb01bba5cb6" category="cell">Actualizar</block>
   <block id="16685aa35f9f2843a357407642b0d7d9" category="cell">Inicia una transferencia incremental para actualizar el volumen de destino.</block>
   <block id="f2a6c498fb90ee345d997f888fce3b18" category="cell">Eliminar</block>
-  <block id="09cd2e52d52004647bc6c39549be0b94" category="cell">Elimina la relación de protección de datos entre los volúmenes de origen y de destino, lo que significa que ya no se produce la replicación de datos entre los volúmenes. Esta acción no activa el volumen de destino para acceder a los datos. Esta acción también elimina la relación entre iguales de clústeres y la relación entre iguales de máquinas virtuales de almacenamiento (SVM), si no hay otras relaciones de protección de datos entre los sistemas.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Resultado</block>
   <block id="b49c40e645fcbad07d8747fe60951eee" category="paragraph">Después de seleccionar una acción, BlueXP actualiza la relación o la programación.</block>
   <block id="87531525c3b816a3a29dbbcbcd9e58b1" category="doc">Obtenga información acerca de las políticas de replicación</block>
@@ -366,4 +365,5 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Es necesario asociar las credenciales del sitio de soporte de NetApp con su organización de BlueXP  para habilitar los siguientes flujos de trabajo clave para Cloud Volumes ONTAP:</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">La asociación de credenciales de NSS a la organización de BlueXP  es diferente de la cuenta de NSS asociada con un inicio de sesión de usuario de BlueXP .</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Estas credenciales de NSS están asociadas con su ID de organización de BlueXP  específico. Los usuarios que pertenecen a la organización BlueXP  pueden acceder a estas credenciales desde *Soporte &gt; Administración de NSS*.</block>
+  <block id="d1325501ee070fd499d61b4cb3ec234d" category="cell">Elimina la relación de protección de datos entre los volúmenes de origen y de destino, lo que significa que ya no se produce la replicación de datos entre los volúmenes. Esta acción no activa el volumen de destino para acceder a los datos.</block>
 </blocks>
